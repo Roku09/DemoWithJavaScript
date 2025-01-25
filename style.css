@@ -56,7 +56,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  margin-top: 20px; /* More space between button and content */
+  margin-top: 30px; /* More space between button and content */
 }
 
 button:hover {
@@ -66,7 +66,7 @@ button:hover {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 30px; /* Increase space between content and button */
+  margin-top: 40px; /* Increase space between content and button */
   color: #fff;
   background: #4caf50; /* Green button color */
   text-decoration: none;
@@ -81,9 +81,9 @@ button:hover {
 /* Back to Landing Page button inside the container */
 a.button {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px; /* Adjusted to give more space from the bottom */
   right: 10px;
-  margin-top: 10px; /* Add margin to space it from other elements */
+  margin-top: 20px; /* Add margin to space it from other elements */
 }
 
 /* Styling for generating list */
