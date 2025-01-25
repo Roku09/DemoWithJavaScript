@@ -1,37 +1,37 @@
 body {
-  font-family: Arial, sans-serif, Georgia, serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f9f9f9;
   color: #333;
 }
 
 .container {
-  max-width: 600px; /* Make the container smaller */
+  max-width: 800px;
   margin: 50px auto;
   padding: 20px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 h1, h2 {
-  font-family: Arial, sans-serif;
-  color: #333;
-  font-size: 1.4rem; /* Smaller text for title */
+  color: #007BFF;
+  font-family: 'Palatino Linotype', serif; /* Use Palatino for headings */
+  font-size: 28px; /* Adjust font size for the header */
 }
 
-.header h1 {
+h1 {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the text and logo */
-  font-size: 1.5rem;
+  font-size: 36px; /* Make the header a bit bigger */
 }
 
-.logo {
-  width: 40px;
-  height: 40px;
-  margin-left: 10px;
+h1 .js-logo {
+  width: 30px; /* Adjust the size of the logo */
+  height: auto;
+  margin-right: 10px;
 }
 
 p, label {
@@ -45,23 +45,21 @@ input {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1rem;
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: #fff;
-  background: #6c757d;
+  background: #007BFF;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 1rem;
   text-align: center;
 }
 
 .button:hover {
-  background: #5a6268;
+  background: #0056b3;
 }
 
 button {
@@ -71,44 +69,14 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1rem;
 }
 
 button:hover {
   background: #218838;
 }
 
-h2 {
-  color: #007BFF;
-  font-size: 1.2rem;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-ul li {
-  font-size: 1rem;
-}
-
-input[type="text"], input[type="number"] {
-  font-size: 1rem;
-}
-
-.container a {
-  color: #fff;
-  background: #007BFF;
-  display: inline-block;
-  padding: 10px 20px;
-}
-
-.container a:hover {
-  background: #0056b3;
-}
-
-.back-button {
+a.button {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  font-size: 1rem;
+  bottom: 10px;
+  right: 10px;
 }
