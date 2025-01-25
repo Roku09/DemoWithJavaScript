@@ -28,9 +28,9 @@ h1 {
 }
 
 h1 .js-logo {
-  width: 40px; /* Adjust the size of the logo */
+  width: 30px; /* Adjust the size of the logo */
   height: auto;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 p, label {
