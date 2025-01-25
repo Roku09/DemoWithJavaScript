@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2 {
-  color: #6a1b9a; /* Purple color */
+  color: #000; /* Change text color to black */
   font-family: 'Georgia', serif;
   font-size: 36px; /* Larger header */
 }
@@ -51,31 +51,31 @@ input {
 button {
   padding: 10px 20px;
   color: #fff;
-  background: #ff5722; /* Orange color */
+  background: #4caf50; /* Green button color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px; /* More space between button and content */
 }
 
 button:hover {
-  background: #e64a19;
+  background: #388e3c; /* Darker green on hover */
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 20px;
+  margin-top: 30px; /* Increase space between content and button */
   color: #fff;
-  background: #ff5722;
+  background: #4caf50; /* Green button color */
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
 }
 
 .button:hover {
-  background: #e64a19;
+  background: #388e3c; /* Darker green on hover */
 }
 
 /* Back to Landing Page button inside the container */
@@ -83,6 +83,7 @@ a.button {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  margin-top: 10px; /* Add margin to space it from other elements */
 }
 
 /* Styling for generating list */
@@ -97,4 +98,3 @@ ul li {
   margin-bottom: 10px;
   border-radius: 5px;
 }
-
