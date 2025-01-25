@@ -13,19 +13,16 @@ body {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
 
 h1, h2 {
   color: #007BFF;
   font-family: 'Palatino Linotype', serif; /* Use Palatino for headings */
-  font-size: 28px; /* Adjust font size for the header */
 }
 
 h1 {
   display: flex;
   align-items: center;
-  font-size: 36px; /* Make the header a bit bigger */
 }
 
 h1 .js-logo {
@@ -50,12 +47,11 @@ input {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
   background: #007BFF;
   text-decoration: none;
   border-radius: 5px;
-  text-align: center;
 }
 
 .button:hover {
@@ -74,10 +70,3 @@ button {
 button:hover {
   background: #218838;
 }
-
-a.button {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
